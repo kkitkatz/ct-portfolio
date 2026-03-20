@@ -4,6 +4,10 @@ body {
     color: #848ea3;
     line-height: 1.6;
     color: #222;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://t3.ftcdn.net/jpg/03/01/90/18/360_F_301901899_lalLiJJTviVxRPTpJ8ShYIe6TcpLbFqC.jpg);
 }
 
 .page-layout {
@@ -12,6 +16,8 @@ body {
     justify-content: space-between;
     min-height: 100vh;
 }
+
+header {}
 
 h1 {
     text-align: center;
