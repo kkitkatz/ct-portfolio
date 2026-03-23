@@ -17,7 +17,12 @@ body {
     min-height: 100vh;
 }
 
-header {}
+header,
+footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
 
 h1 {
     text-align: center;
@@ -58,4 +63,13 @@ p {
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
+}
+
+.social-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.social-links a {
+    text-decoration: none;
 }
