@@ -17,6 +17,19 @@ body {
     min-height: 100vh;
 }
 
+.item:hover {
+    background-color: white;
+    color: black;
+    transform: scaleY(0.9);
+    transform-origin: center;
+    transition: all 0, 2s ease ease-in-out;
+    transform: scale(0.9, 0.9);
+}
+
+.item {
+    transition: transform 0.3s ease;
+}
+
 header,
 footer {
     display: flex;
@@ -41,6 +54,7 @@ p {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .item {
@@ -72,5 +86,9 @@ p {
 }
 
 .social-links a {
+    text-decoration: none;
+}
+
+a {
     text-decoration: none;
 }
