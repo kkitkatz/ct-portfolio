@@ -13,7 +13,6 @@ body {
 .page-layout {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     min-height: 100vh;
 }
 
@@ -24,7 +23,7 @@ body {
     transform-origin: center;
     transition: all 0, 2s ease ease-in-out;
     transform: scale(0.9, 0.9);
-    transition: transform 0.3s ease;
+    transition: 0.3s ease;
 }
 
 header,
