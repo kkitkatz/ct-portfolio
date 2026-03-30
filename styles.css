@@ -26,7 +26,12 @@ body {
     transition: 0.3s ease;
 }
 
-header,
+header {
+    display: flex;
+    justify-content: right;
+    font-size: 18px;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
