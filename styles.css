@@ -14,6 +14,15 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    justify-content: space-between;
+}
+
+.pg-layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .item:hover {
@@ -66,23 +75,10 @@ p {
     width: 100%;
 }
 
-.circle {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    background-color: #3498db;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
-}
-
 .images {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    overflow: hidden;
     border: 2px solid #333;
 }
 
@@ -107,6 +103,21 @@ p {
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
+}
+
+.ranchers-regular {
+    font-family: "Ranchers", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Ranchers", cursive;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    color: #7fa6ca
 }
 
 .social-logo {
