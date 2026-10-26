@@ -148,3 +148,18 @@ h2 {
 a {
     text-decoration: none;
 }
+
+.ardunio-images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.block-diagram {
+    max-width: 45%;
+    height: auto;
+}
+
+.wireframe {
+    max-width: 45%;
+    height: auto;
+}
