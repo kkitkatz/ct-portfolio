@@ -163,3 +163,10 @@ a {
     max-width: 45%;
     height: auto;
 }
+
+.actual-images {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+    width: 25%;
+}
